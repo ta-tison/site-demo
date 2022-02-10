@@ -25,12 +25,6 @@ html,body{
 h1{
 	display: inline-block;
 	font-size: 5vw;
-  	transition: 1s;
-}
-
-h1:hover{
-	/*color: #f00;*/
-	color: rgba(255,255,255,0)
 }
 
 .title-shadow-bottom{
@@ -40,11 +34,12 @@ h1:hover{
 
 .banner{
 	margin:0;
-	padding:2vh;
+	padding-top:20vw;
+	display:inline-flex;
 }
 
 .nav-banner *{
-	margin: 0;
+	margin:auto;
 	padding:3vw;
 	font-size: 2.5vw;
 	color: #fff;
@@ -53,7 +48,7 @@ h1:hover{
 }
 
 #bg-video {
-    height: 70%;
+    height: 100%;
     width: 100%;
     object-fit: cover;
     position: fixed;
