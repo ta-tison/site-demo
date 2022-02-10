@@ -1,0 +1,50 @@
+/* CSS Document */
+
+@font-face{
+    font-family: Gotham;
+    src: url("../assets/fonts/GothamBold.ttf");
+}
+
+html,body{
+  	padding: 0;
+  	margin: 0;
+	box-sizing: border-box;
+	background-color: #242424;
+  	text-align: center;
+  	font-family: Gotham;
+	color: white;
+	white-space: nowrap;
+}
+
+h1{
+	display: inline-block;
+	font-size: 5vw;
+  	transition: 1s;
+}
+
+h1:hover{
+	color: #f00;
+}
+
+.title-shadow-bottom{
+	height:10vh;
+	background:-webkit-linear-gradient(90deg, #242424 0%, rgba(255,255,255,0) 100%);
+}
+
+.viewport-header{
+	background:#161616;
+}
+
+.banner{
+	margin:0;
+	padding:2vh;
+}
+
+.nav-banner *{
+	margin: 0;
+	padding:1vh;
+	color: #fff;
+	text-decoration: none;
+	display:inline-block;
+}
+
